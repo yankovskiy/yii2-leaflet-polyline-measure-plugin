@@ -1,6 +1,6 @@
 Plugin for leaflet extension
 ============================
-Plugin to measure distances of simple lines as well as of complex polylines
+Plugin for yii2 based on the [Leaflet.PolylineMeasure](https://github.com/ppete2/Leaflet.PolylineMeasure) to measure distances of simple lines as well as of complex polylines
 
 Installation
 ------------
