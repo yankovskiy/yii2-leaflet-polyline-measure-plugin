@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yankovskiy/yii2-leaflet-polyline-measure-plugin "*"
+php composer.phar require --prefer-dist yankovskiy/yii2-leaflet-polyline-measure-plugin "0.1.0"
 ```
 
 or add
 
 ```
-"yankovskiy/yii2-leaflet-polyline-measure-plugin": "*"
+"yankovskiy/yii2-leaflet-polyline-measure-plugin": "0.1.0"
 ```
 
 to the require section of your `composer.json` file.
