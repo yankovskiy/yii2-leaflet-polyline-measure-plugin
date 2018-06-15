@@ -37,29 +37,6 @@ $osmLayer = new \dosamigos\leaflet\layers\TileLayer([
     ],
 ]);
 
-$cycleLayer = new \dosamigos\leaflet\layers\TileLayer([
-    'urlTemplate' => 'https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png',
-    'clientOptions' => [
-        'attribution' => '&copy; <a href="https://www.thunderforest.com">Thunderforest</a> ',
-    ],
-]);
-
-$outdoorLayer = new \dosamigos\leaflet\layers\TileLayer([
-    'urlTemplate' => 'https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png',
-    'clientOptions' => [
-        'attribution' => '&copy; <a href="https://www.thunderforest.com">Thunderforest</a> ',
-    ],
-]);
-
-$layers = new \dosamigos\leaflet\controls\Layers();
-$layers->setBaseLayers(
-    [
-        'OpenStreetMap' => $osmLayer,
-        'OpenCycleMap' => $cycleLayer,
-        'Outdoor' => $outdoorLayer,
-    ]
-);
-
 $polylineMeasure = new \neverdark\leaflet\PolylineMeasure();
 
 $leaflet = new \dosamigos\leaflet\LeafLet([
@@ -67,7 +44,6 @@ $leaflet = new \dosamigos\leaflet\LeafLet([
 ]);
 
 $leaflet->addLayer($osmLayer);
-$leaflet->addControl($layers);
 $leaflet->installPlugin($polylineMeasure);
 
 
