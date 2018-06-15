@@ -1,0 +1,22 @@
+{
+    "name": "yankovskiy/yii2-leaflet-polyline-measure-plugin",
+    "description": "Plugin to measure distances of simple lines as well as of complex polylines",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","leaflet"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Artem Yankovskiy",
+            "email": "artemyankovskiy@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "2amigos/yii2-leaflet-extension": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "neverdark\\leaflet\\": "src/"
+        }
+    }
+}
