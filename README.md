@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist yankovskiy/yii2-leaflet-polyline-measure
 or add
 
 ```
-"yankovskiy/yii2-leaflet-polyline-measure-plugin": "0.1.0"
+"yankovskiy/yii2-leaflet-polyline-measure-plugin": "0.1.1"
 ```
 
 to the require section of your `composer.json` file.
